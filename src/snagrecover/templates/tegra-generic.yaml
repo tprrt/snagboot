@@ -1,0 +1,30 @@
+# This file is part of Snagboot
+# Copyright (C) 2023 Bootlin
+#
+# Written by Thomas Perrot <thomas.perrot@bootlin.com> in 2023.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+soc_family: tegra
+soc: tegra124  # Change this to your specific Tegra SoC
+firmware:
+  bootloader:
+    # Path to the bootloader binary (typically u-boot or cboot)
+    # For Tegra, this could be u-boot.bin or cboot.bin
+    path: path/to/bootloader.bin
+  u-boot:
+    # Path to U-Boot binary
+    # This is used if you need to chain-load U-Boot after bootloader
+    path: path/to/u-boot.bin

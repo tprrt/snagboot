@@ -68,6 +68,20 @@ tested:
   bcm2712:
         family: bcm
 untested:
+  tegra20:
+        family: tegra
+  tegra30:
+        family: tegra
+  tegra114:
+        family: tegra
+  tegra124:
+        family: tegra
+  tegra132:
+        family: tegra
+  tegra210:
+        family: tegra
+  tegra234:
+        family: tegra
   a10:
         family: sunxi
   a10s:
